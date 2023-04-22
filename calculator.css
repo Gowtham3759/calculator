@@ -1,0 +1,46 @@
+.calculator
+{
+    height: 300px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px;
+    background-color:darkslateblue;
+}
+.input{
+    width: 380px;
+    height:50px;
+    text-align: right;
+    font-size:larger;
+    font-weight: 300;
+}
+.input1{
+    display: flex;
+    justify-content: flex-end;
+}
+.oper
+{
+    display: flex;
+    height:50px;
+    width:380px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.button1
+{
+    width:65px;
+    background-color: antiquewhite;
+    font-size: larger;
+}
+.container
+{
+    height:800px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgrey;
+}
